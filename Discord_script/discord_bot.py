@@ -1,10 +1,10 @@
 # -*- encoding: utf-8 -*-"
-# @Module  : test
-# @Time    : 2022/4/15 13:38
-# @Author  : bibi45
+# @Module  : discord bot
+# @Time    : 2022/4/25 13:38
+# @Author  : 0xgtr.eth
 # @Version : 1.0
 # @Contact : bibi45gt@gmail.com
-# @License : (C)Copyright 2019-2022, bibi45
+# @License : (C)Copyright 2018-2022, 0xgtr.eth
 # That’s weird… It worked yesterday.
 import requests
 import json
@@ -14,12 +14,12 @@ import time
 # 填写随机发送的语句
 context_list = ["牛逼", "666"]
 
-# 填写要聊天的channel id   看url   多个频道["channel_id_1", "channel_id_2"]
-channel_list = ['']
-# 填写用户的token          f12抓包 找包名为 science   authorization在Request Headers里面   多个号["auth_a", "auth_b"]
-authorization_list = ['']
+# 填写要聊天的channel id
+channel_list = ['']  # 看web discord 频道url   多个频道 ["channel_id_1", "channel_id_2"]
+# 填写用户的token
+authorization_list = ['']  # f12抓包 找包名为 science   authorization在Request Headers里面   多个号 ["auth_a", "auth_b"]
 
-# 休眠时间 random.randrange(60, 80): 休眠60~80s
+# 随机休眠时间 random.randrange(60, 80): 休眠60~80s
 sleep_gap = random.randrange(60, 80)
 
 
